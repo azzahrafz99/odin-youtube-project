@@ -1,0 +1,87 @@
+body {
+  background-color: #F1F1F1;
+}
+
+/* Header */
+header {
+  background-color: white;
+  margin: -8px -8px 0 -8px;
+  height: 50px;
+}
+
+#logo {
+  width: 75px;
+}
+
+#list {
+  margin-bottom: 3px;
+}
+
+.search-box {
+  margin-left: 230px;
+  margin-top: -38px;
+}
+
+.search-box input[type="text"] {
+  padding: 8px;
+  width: 500px;
+  border: 1px solid #B9B9B9;
+}
+
+.btn-search {
+  margin-left: 518px;
+  margin-top: -33px;
+}
+
+.btn-search button {
+  width: 70px;
+  background-color: #F8F8F8;
+  border: 2px solid #F2F2F2;
+  padding: 3px;
+}
+
+#search {
+  width: 20px;
+}
+
+hr {
+  border: 1px solid #f4f4f4;
+  margin-top: 15px;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+/* content section */
+.video-player {
+  margin: 15px 0 0 5px;
+}
+
+.video-info {
+  width: 768px;
+  height: 150px;
+  background-color: white;
+  margin: 10px 0 0 5px;
+  font-family: sans-serif;
+  padding-top: 1px;
+}
+
+.info img {
+  width: 50px;
+  margin-left: 15px;
+}
+
+.info h3 {
+  margin-left: 15px;
+}
+
+.info h5 {
+  margin: -55px 0 0 75px;
+}
+
+.btn {
+  margin: 10px 0 0 75px;
+}
+.btn button {
+  background-color: #F8F8F8;
+  border: 2px solid #ccc;
+}
