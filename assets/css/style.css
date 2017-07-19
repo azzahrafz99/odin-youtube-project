@@ -23,7 +23,7 @@ header {
   margin: 3px 0 0 20px;
 }
 
-#logo {
+.logo {
   width: 75px;
 }
 
@@ -187,9 +187,9 @@ hr {
 
 aside {
   background-color: white;
-  margin: 15px 0 0 -70px;
+  margin: -7px 0 0 -70px;
   width: 490px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 aside h5 {
@@ -198,7 +198,7 @@ aside h5 {
 }
 
 .suggested-video {
-  padding: 15px 0 0 7px;
+  padding: 10px 0 0 7px;
   margin: 0 0 0 10px  ;
 }
 
@@ -242,7 +242,7 @@ aside h5 {
 
 .comment {
   width: 768px;
-  height: 530px;
+  height: 550px;
   background-color: white;
   margin: 10px 0 0 5px;
   padding-top: 1px;
@@ -300,4 +300,45 @@ aside h5 {
 
 .dislike-icon {
   width: 25px;
+}
+
+/* footer */
+
+footer {
+  background-color: white;
+  margin-top: 150px;
+  height: 150px;
+}
+
+.footer {
+  margin: 0 20px 10px 20px;
+  padding-top: 10px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #4e4e4e;
+  padding: 5px;
+}
+
+.option {
+  margin: -50px 0 0 100px;
+}
+
+.option select, .option   button {
+  background-color: #F0F0F0;
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.strong {
+  font-weight: bold;
+  font-size: 10pt;
+}
+
+.small {
+  font-size: 8pt;
+  margin-top: 10px;
 }
