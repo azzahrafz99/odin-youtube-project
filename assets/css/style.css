@@ -1,5 +1,15 @@
 body {
   background-color: #F1F1F1;
+  font-family: sans-serif;
+}
+
+.pic {
+  width: 50px;
+  height: 50px;
+}
+
+.icon {
+  width: 20px;
 }
 
 /* Header */
@@ -7,6 +17,10 @@ header {
   background-color: white;
   margin: -8px -8px 0 -8px;
   height: 50px;
+}
+
+.youtube-logo {
+  margin: 3px 0 0 20px;
 }
 
 #logo {
@@ -18,8 +32,7 @@ header {
 }
 
 .search-box {
-  margin-left: 230px;
-  margin-top: -38px;
+  margin: 10px 0 0 -100px;
 }
 
 .search-box input[type="text"] {
@@ -29,7 +42,7 @@ header {
 }
 
 .btn-search {
-  margin-left: 518px;
+  margin-left: 500px;
   margin-top: -33px;
 }
 
@@ -51,14 +64,49 @@ hr {
   margin-right: -5px;
 }
 
-/* content section */
+/* header right*/
+.header-right {
+  float: right;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+
+.header-right img {
+  margin-left: 5px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 30px;
+}
+/* video section */
 .video-player {
   margin: 15px 0 0 5px;
 }
 
+.video-icon {
+  margin-left: 10px;
+  font-size: 9pt;
+}
+
+.video-like {
+  margin-right: 30px;
+  font-size: 9pt;
+  float: right;
+}
+
+.video-like img {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.video-icon img {
+  margin-left: 20px;
+}
+
 .video-info {
   width: 768px;
-  height: 150px;
+  height: 170px;
   background-color: white;
   margin: 10px 0 0 5px;
   font-family: sans-serif;
@@ -84,4 +132,172 @@ hr {
 .btn button {
   background-color: #F8F8F8;
   border: 2px solid #ccc;
+  color: #555;
+  font-size: 12px;
+}
+
+.subscribed img {
+  width: 20px;
+  height: 20px;
+  margin-left: -6px;
+  margin-bottom: -4px;
+}
+
+.notification img {
+  width: 20px;
+  height: 20px;
+  margin-left: -3px;
+  margin-bottom: -4px;
+}
+
+.notification {
+  margin-left: -10px;
+  width: 30px;
+}
+
+.info p {
+  color: #6b6b6b;
+  font-size: 10pt;
+  margin: -15px 0 0 0;
+}
+
+#views {
+  font-size: 8pt;
+}
+
+.video-info hr {
+  width: 700px;
+  margin-left: 15px;
+}
+.video-views {
+  margin: 92px 0 0 155px;
+  width: 170px;
+}
+
+.video-views h3 {
+  text-align: right;
+  color: #6D6D6D;
+}
+
+.video-views hr {
+  border: 1px solid #167AC6;
+}
+
+/* Sidebar */
+
+aside {
+  background-color: white;
+  margin: 15px 0 0 -70px;
+  width: 490px;
+  padding-bottom: 15px;
+}
+
+aside h4 {
+  margin-left: 15px;
+  padding-top: 10px;
+}
+
+.suggested-video {
+  padding: 15px 0 0 7px;
+  margin: 0 0 0 10px  ;
+}
+
+.suggested-video .info {
+  margin: -20px 0 0 -50px;
+}
+
+/* description */
+
+.description-box {
+  width: 768px;
+  height: 150px;
+  background-color: white;
+  margin: 10px 0 0 5px;
+  font-family: sans-serif;
+  padding-top: 1px;
+}
+
+.description {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+}
+
+.description p {
+  font-size: 10pt;
+  margin-top: -10px;
+}
+
+.description a {
+  color: #444;
+  text-decoration: none;
+  font-size: 8pt;
+}
+
+.description a:hover {
+  color: black;
+}
+
+/* comment */
+
+.comment {
+  width: 768px;
+  height: 530px;
+  background-color: white;
+  margin: 10px 0 0 5px;
+  padding-top: 1px;
+}
+
+.comment textarea {
+  margin-left: 10px;
+}
+
+.comment-body {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+}
+
+.comment-body button {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 700px;
+}
+
+.comment-body select {
+  background-color: #F0F0F0;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.comment-body option {
+  background-color: white;
+}
+
+.comment-list {
+  margin-top: 20px;
+  font-size: 10pt;
+}
+
+.comment-list a {
+  text-decoration: none;
+  color: #167AC6;
+}
+
+#reply {
+  color: #c7c7c7;
+}
+
+.comment-list .row {
+  margin-bottom: 30px;
+}
+
+.like-icon {
+  width: 20px;
+}
+
+.dislike-icon {
+  width: 25px;
 }

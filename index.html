@@ -4,41 +4,196 @@
     <meta charset="utf-8">
     <title>Youtube</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
   </head>
   <body>
     <header>
-      <div class="youtube-logo">
-        <img src="assets/images/list.jpg" alt="list" id="list">
-        <img src="assets/images/youtube.png" alt="youtube-logo" id="logo">
-      </div>
-      <div class="search-box">
-        <input type="text" name="search" value="" placeholder="Search">
-        <div class="btn-search">
-          <button type="button" name="button">
-            <img src="assets/images/search.png" alt="" id="search">
-          </button>
+      <div class="row">
+        <div class="col-3">
+          <div class="youtube-logo">
+            <img src="assets/images/list.jpg" alt="list" id="list">
+            <img src="assets/images/youtube.png" alt="youtube-logo" id="logo">
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="search-box">
+            <input type="text" name="search" value="" placeholder="Search">
+            <div class="btn-search">
+              <button type="button" name="button">
+                <img src="assets/images/search.png" alt="" id="search">
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="header-right">
+            <img src="assets/images/upload_icon.png" alt="" class="icon">
+            <img src="assets/images/notification_icon.png" alt="" class="icon">
+            <img src="assets/images/photo.jpg" alt="" class="profile-pic">
+          </div>
         </div>
       </div>
     </header>
-    <section>
-      <div class="video-player">
-        <iframe width="768" height="432" src="https://www.youtube.com/embed/2LHjnVGwLHk" frameborder="0" allowfullscreen></iframe>
-      </div>
-    </section>
-    <section>
-      <div class="video-info">
-        <div class="info">
-          <h3>Hijab Review & Try on: LAFIYE</h3>
-          <img src="assets/images/profile-pic.png" alt="">
-          <h5>Gita Savitri Devi</h5>
-          <div class="btn">
-            <button type="button" name="button">Subscribe</button>
-            <button type="button" name="button"></button>
-            <button type="button" name="button"></button>
+    <div class="row">
+      <div class="col-8">
+        <div class="row">
+          <div class="video-player">
+            <iframe width="768" height="432" src="https://www.youtube.com/embed/2LHjnVGwLHk" frameborder="0" allowfullscreen></iframe>
           </div>
-          <hr>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <div class="video-info">
+              <div class="info">
+                <h3>Hijab Review & Try on: LAFIYE</h3>
+                <img src="assets/images/profile-pic.png" alt="">
+                <h5>Gita Savitri Devi</h5>
+                <div class="btn">
+                  <button type="button" name="button" class="subscribed"><img src="assets/images/checklist.png" alt="">Subscribed</button>
+                  <button type="button" name="button" class="notification"><img src="assets/images/notification.png" alt=""></button>
+                </div>
+                <hr>
+              </div>
+              <div class="row">
+                <div class="col-8">
+                  <div class="video-icon">
+                    <img src="assets/images/addbtn.png" class="icon" alt=""> Add to
+                    <img src="assets/images/share.png" class="icon" alt=""> Share
+                    <img src="assets/images/more.png" class="icon" alt=""> More
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="video-like">
+                    <img src="assets/images/like.png" class="icon" alt="">1,544
+                    <img src="assets/images/dislike.png" class="icon" alt="">118
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="video-views">
+              <h3>170, 890 views</h3>
+              <hr>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
+      <div class="col-4">
+        <aside class="sidebar">
+          <h4>Up next</h4>
+          <div class="suggested-video">
+            <div class="row">
+              <div class="col-6">
+                <iframe width="75%" height="100" src="https://www.youtube.com/embed/pCw6cQT7aTY" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div class="col-6 info">
+                <h4>Berkunjung ke Bandung</h4>
+                <p>Gita Savitri Devi</p><br>
+                <p id="views">104, 300 views</p>
+              </div>
+            </div>
+          </div>
+          <div class="suggested-video">
+            <div class="row">
+              <div class="col-6">
+                <iframe width="75%" height="100" src="https://www.youtube.com/embed/2I6NsBk7Ekk" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div class="col-6 info">
+                <h4>Berkunjung ke Bandung</h4>
+                <p>Gita Savitri Devi</p><br>
+                <p id="views">211, 145 views</p>
+              </div>
+            </div>
+          </div>
+          <div class="suggested-video">
+            <div class="row">
+              <div class="col-6">
+                <iframe width="75%" height="100" src="https://www.youtube.com/embed/2I6NsBk7Ekk" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div class="col-6 info">
+                <h4>Berkunjung ke Bandung</h4>
+                <p>Gita Savitri Devi</p><br>
+                <p id="views">211, 145 views</p>
+              </div>
+            </div>
+          </div>
+          <div class="suggested-video">
+            <div class="row">
+              <div class="col-6">
+                <iframe width="75%" height="100" src="https://www.youtube.com/embed/2I6NsBk7Ekk" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div class="col-6 info">
+                <h4>Berkunjung ke Bandung</h4>
+                <p>Gita Savitri Devi</p><br>
+                <p id="views">211, 145 views</p>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <section class="description-box">
+          <div class="description">
+            <h5>Published on Jul, 2016</h5>
+            <p>Selamat datang di Videonya Gita. Nama gue Gita Savitri Devi. Gue orang Indonesia yang tinggal di Berlin, Jerman. Di video ini gue ngerekam apa aja yang gue lakuin pada hari itu. Ada yang jelas, ada juga yang nggak jelas. Tapi kebanyakan sih random haha. Intinya gue pingin ngebagiin snippet of my life as a student di sini.</p>
+            <hr>
+            <center><a href="#">SHOW MORE</a></center>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <section class="comment">
+          <div class="comment-body">
+            <h4>Comments - 384</h4>
+            <img src="assets/images/profile-pic.png" class="pic" alt=""><textarea name="name" rows="3" cols="70" placeholder="Add a public comment..."></textarea>
+            <hr>
+            <select class="" name="">
+              <option value="">Top Comments</option>
+              <option value="">Newest First</option>
+            </select>
+            <div class="comment-list">
+              <div class="row">
+                <div class="col-1">
+                  <img src="assets/images/profile-pic.png" class="pic" alt="">
+                </div>
+                <div class="col-9">
+                  <a href="#">Gita Savitri Devi</a>
+                  <p>
+                    Ice cream liquorice jelly beans cookie croissant dragée chupa chups pie. Cupcake fruitcake cookie jelly ice cream danish. Soufflé chocolate cake gummi bears biscuit toffee marzipan chocolate bar. Wafer gummi bears marshmallow marshmallow jelly-o chupa chups lollipop gingerbread.
+                  </p>
+                  <a href="#" id="reply">Reply - </a>
+                  <a href="#">123</a>
+                  <img src="assets/images/like.png" class="like-icon" alt="">
+                  <img src="assets/images/dislike.png" class="dislike-icon" alt="">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-1">
+                  <img src="assets/images/photo.jpg" class="pic" alt="">
+                </div>
+                <div class="col-9">
+                  <a href="#">Fatimah Az-Zahra</a>
+                  <p>
+                    Ice cream liquorice jelly beans cookie croissant dragée chupa chups pie. Cupcake fruitcake cookie jelly ice cream danish.
+                  </p>
+                  <a href="#" id="reply">Reply - </a>
+                  <a href="#">12</a>
+                  <img src="assets/images/like.png" class="like-icon" alt="">
+                  <img src="assets/images/dislike.png" alt="" class="dislike-icon">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <center><button type="button" name="button">Show more</button></center>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
   </body>
 </html>
